@@ -1,0 +1,3 @@
+7. Quicksort em C: Repita a quest˜ao de Ordena¸c˜ao por Sele¸c˜ao, contudo, usando o algoritmo
+Quicksort, fazendo com que a chave de pesquisa seja o atributo estadoNascimento. O nome
+do arquivo de log ser´a matr´ıcula quicksort.txt.
