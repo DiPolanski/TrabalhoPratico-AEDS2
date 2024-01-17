@@ -1,0 +1,3 @@
+6. Tabela Hash Indireta com Lista Simples em C: Refa¸ca a quest˜ao anterior com Tabela
+Hash Indireta com Lista Simples. A fun¸c˜ao de transforma¸c˜ao ser´a altura mod tamTab onde
+tamTab (tamanho da tabela) ´e 25. O nome do arquivo de log ser´a matr´ıcula hashIndireta.txt
