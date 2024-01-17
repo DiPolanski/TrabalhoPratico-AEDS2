@@ -1,0 +1,4 @@
+1.Palındromo - Crie um m´etodo iterativo que recebe uma string como parˆametro e retorna true
+se essa ´e um pal´ındromo. Na sa´ıda padr˜ao, para cada linha de entrada, escreva uma linha de
+sa´ıda com SIM / NAO indicando se a linha ´e um pal´ındromo. Destaca-se que uma linha de ˜
+entrada pode ter caracteres n˜ao letras.
