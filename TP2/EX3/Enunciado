@@ -1,0 +1,10 @@
+3. Pesquisa Sequencial em Java: Fa¸ca a inser¸c˜ao de alguns registros no final de um vetor e,
+em seguida, fa¸ca algumas pesquisas sequenciais. A chave prim´aria de pesquisa ser´a o atributo
+nome. A entrada padr˜ao ´e composta por duas partes onde a primeira ´e igual a entrada da
+primeira quest˜ao. As demais linhas correspondem a segunda parte. A segunda parte ´e composta
+por v´arias linhas. Cada uma possui um elemento que deve ser pesquisado no vetor. A ´ultima
+linha ter´a a palavra FIM. A sa´ıda padr˜ao ser´a composta por v´arias linhas contendo as palavras
+SIM/NAO para indicar se existe cada um dos elementos pesquisados. Al´em disso, crie um
+arquivo de log na pasta corrente com o nome matr´ıcula sequencial.txt com uma ´unica linha
+contendo sua matr´ıcula, tempo de execu¸c˜ao do seu algoritmo e n´umero de compara¸c˜oes. Todas
+as informa¸c˜oes do arquivo de log devem ser separadas por uma tabula¸c˜ao ’\t’
