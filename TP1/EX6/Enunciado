@@ -1,0 +1,9 @@
+6.Crie um m´etodo iterativo que recebe uma string e retorna true se a mesma ´e composta
+somente por vogais. Crie outro m´etodo iterativo que recebe uma string e retorna true se a
+mesma ´e composta somente por consoantes. Crie um terceiro m´etodo iterativo que recebe uma
+string e retorna true se a mesma corresponde a um n´umero inteiro. Crie um quarto m´etodo
+iterativo que recebe uma string e retorna true se a mesma corresponde a um n´umero real. Na
+sa´ıda padr˜ao, para cada linha de entrada, escreva outra de sa´ıda da seguinte forma X1 X2 X3
+X4 onde cada Xi ´e um booleano indicando se a ´e entrada ´e: composta somente por vogais (X1);
+composta somente somente por consoantes (X2); um n´umero inteiro (X3); um n´umero real (X4).
+Se Xi for verdadeiro, seu valor ser´a SIM, caso contr´ario, NAO.
