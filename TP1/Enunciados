@@ -1,0 +1,73 @@
+1. Pal´ındromo - Crie um m´etodo iterativo que recebe uma string como parˆametro e retorna true
+se essa ´e um pal´ındromo. Na sa´ıda padr˜ao, para cada linha de entrada, escreva uma linha de
+sa´ıda com SIM / NAO indicando se a linha ´e um pal´ındromo. Destaca-se que uma linha de ˜
+entrada pode ter caracteres n˜ao letras.
+2. Pal´ındromo em C - Refa¸ca a quest˜ao anterior na linguagem C.
+3. Ciframento de C´esar - O Imperador J´ulio C´esar foi um dos principais nomes do Imp´erio
+Romano. Entre suas contribui¸c˜oes, temos um algoritmo de criptografia chamado “Ciframento de
+C´esar”. Segundo os historiadores, C´esar utilizava esse algoritmo para criptografar as mensagens
+que enviava aos seus generais durante as batalhas. A ideia b´asica ´e um simples deslocamento
+de caracteres. Assim, por exemplo, se a chave utilizada para criptografar as mensagens for 3,
+todas as ocorrˆencias do caractere ’a’ s˜ao substitu´ıdas pelo caractere ’d’, as do ’b’ por ’e’, e assim
+sucessivamente. Crie um m´etodo iterativo que recebe uma string como parˆametro e retorna
+outra contendo a entrada de forma cifrada. Neste exerc´ıcio, suponha a chave de ciframento trˆes.
+Na sa´ıda padr˜ao, para cada linha de entrada, escreva uma linha com a mensagem criptografada.
+4. Altera¸c˜ao Aleat´oria - Crie um m´etodo iterativo que recebe uma string, sorteia duas letras
+min´usculas aleat´orias (c´odigo ASCII ≥ ’a’ e ≤ ’z’), substitui todas as ocorrˆencias da primeira
+letra na string pela segunda e retorna a string com as altera¸c˜oes efetuadas. Na sa´ıda padr˜ao,
+para cada linha de entrada, execute o m´etodo desenvolvido nesta quest˜ao e mostre a string
+retornada como uma linha de sa´ıda. Abaixo, observamos um exemplo de entrada supondo que
+para a primeira linha as letras sorteados foram o ’a’ e o ’q’. Para a segunda linha, foram o ’e’ e
+o ’k’.
+EXEMPLO DE ENTRADA: EXEMPLO DE SA´IDA:
+o rato roeu a roupa do rei de roma o rqto roeu q roupq do rei de romq
+e qwe qwe qwe ewq ewq ewq k qwk qwk qwk kwq kwq kwq
+FIM
+A classe Random do Java gera n´umeros (ou letras) aleat´orios e o exemplo abaixo mostra uma
+letra min´uscula na tela. Em especial, destacamos que: i) seed ´e a semente para gera¸c˜ao de
+n´umeros aleat´orios; ii) nesta quest˜ao, por causa da corre¸c˜ao autom´atica, a seed ser´a quatro; iii)
+a disciplina de Estat´ıstica e Probabilidade faz uma discuss˜ao sobre “aleat´orio”.
+1 Random gerador = new Random( ) ;
+2 gerador . setSeed ( 4 ) ;
+3 System . out . pr int ln ( ( char ) ( ’ a ’ + (Math. abs ( gerador . nextInt ( ) ) % 2 6 ) ) ) ;
+5. Algebra Booleana ´ - Crie um m´etodo iterativo que recebe uma string contendo uma express˜ao
+booleana e o valor de suas entradas e retorna um booleano indicando se a express˜ao ´e verdadeira
+ou falsa. Cada string de entrada ´e composta por um n´umero inteiro n indicando o n´umero de
+entradas da express˜ao booleana corrente. Em seguida, a string cont´em n valores bin´arios (um
+para cada entrada) e a express˜ao booleana. Na sa´ıda padr˜ao, para cada linha de entrada, escreva
+uma linha de sa´ıda com SIM / NAO indicando se a express˜ao corrente ´e verdadeira ou falsa. ˜
+6. Is - Crie um m´etodo iterativo que recebe uma string e retorna true se a mesma ´e composta
+somente por vogais. Crie outro m´etodo iterativo que recebe uma string e retorna true se a
+mesma ´e composta somente por consoantes. Crie um terceiro m´etodo iterativo que recebe uma
+string e retorna true se a mesma corresponde a um n´umero inteiro. Crie um quarto m´etodo
+iterativo que recebe uma string e retorna true se a mesma corresponde a um n´umero real. Na
+sa´ıda padr˜ao, para cada linha de entrada, escreva outra de sa´ıda da seguinte forma X1 X2 X3
+X4 onde cada Xi ´e um booleano indicando se a ´e entrada ´e: composta somente por vogais (X1);
+composta somente somente por consoantes (X2); um n´umero inteiro (X3); um n´umero real (X4).
+Se Xi for verdadeiro, seu valor ser´a SIM, caso contr´ario, NAO. ˜
+7. Leitura de P´agina HTML - Leia duas strings sendo que a primeira ´e o nome de uma p´agina
+web e a segunda, seu endere¸co. Por exemplo, “Pontif´ıcia Universidade Cat´olica de Minas Gerais”
+e “www.pucminas.br”. Em seguida, mostre na tela o n´umero de vogais (sem e com acento), consoantes e dos padr˜oes “< br >” e “< table >” que aparecem no c´odigo dessa p´agina. A entrada
+padr˜ao ´e composta por v´arias linhas. Cada uma cont´em v´arias strings sendo que a primeira
+´e um endere¸co web e as demais o nome dessa p´agina web. A ´ultima linha da entrada padr˜ao
+cont´em a palavra “FIM”. A sa´ıda padr˜ao cont´em v´arias linhas sendo que cada uma apresenta
+o n´umero de ocorrˆencia (valor xi entre parˆenteses) de cada caractere ou string solicitado. Cada
+linha de sa´ıda ser´a da seguinte forma: a(x1) e(x2) i(x3) o(x4) u(x5) ´a(x6) ´e(x7) ´ı(x8) ´o(x9) ´u(x10)
+`a(x11) `e(x12) `ı(x13) `o(x14) `u(x15) ˜a(x16) ˜o(x17) ˆa(x19) ˆe(x19) ˆı(x20) ˆo(x21) ˆu(x22) consoante(x23)
+< br >(x24) < table >(x25) nomep´agina(x26).
+8. Arquivo em Java: Fa¸ca um programa que leia um n´umero inteiro n indicando o n´umero de
+valores reais que devem ser lidos e salvos sequencialmente em um arquivo texto. Ap´os a leitura
+dos valores, devemos fechar o arquivo. Em seguida, reabri-lo e fazer a leitura de tr´as para frente
+usando os m´etodos getFilePointer e seek da classe RandomAccessFile e mostre todos os valores
+lidos na tela. Nessa quest˜ao, vocˆe n˜ao pode usar, arrays, strings ou qualquer estrutura de dados.
+A entrada padr˜ao ´e composta por um n´umero inteiro n e mais n n´umeros reais. A sa´ıda padr˜ao
+corresponde a n n´umeros reais mostrados um por linha de sa´ıda.
+9. Arquivo em C: Refa¸ca a quest˜ao anterior na linguagem C.
+10. RECURSIVO - Pal´ındromo - Refa¸ca a quest˜ao Pal´ındromo de forma recursiva.
+11. RECURSIVO - Pal´ındromo em C - Refa¸ca a quest˜ao anterior na linguagem C
+12. RECURSIVO - Ciframento de C´esar - Refa¸ca a quest˜ao Ciframento de C´esar de forma
+recursiva.
+13. RECURSIVO - Altera¸c˜ao Aleat´oria em C - Refa¸ca a quest˜ao Altera¸c˜ao Aleat´oria de
+forma recursiva.
+14. RECURSIVO - Algebra Booleana ´ - Refa¸ca a quest˜ao Algebra Booleana ´ de forma recursiva.
+15. RECURSIVO - Is - Refa¸ca a quest˜ao Is de forma recursiva
