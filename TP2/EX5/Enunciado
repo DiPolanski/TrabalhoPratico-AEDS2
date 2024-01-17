@@ -1,0 +1,7 @@
+5. Ordena¸c˜ao por Sele¸c˜ao em Java: Usando vetores, implemente o algoritmo de ordena¸c˜ao por
+sele¸c˜ao considerando que a chave de pesquisa ´e o atributo nome. A entrada e a sa´ıda padr˜ao
+s˜ao iguais as da primeira quest˜ao, contudo, a sa´ıda corresponde aos registros ordenados. Al´em
+disso, crie um arquivo de log na pasta corrente com o nome matr´ıcula selecao.txt com uma ´unica
+linha contendo sua matr´ıcula, n´umero de compara¸c˜oes (entre elementos do array), n´umero de
+movimenta¸c˜oes (entre elementos do array) e o tempo de execu¸c˜ao do algoritmo de ordena¸c˜ao.
+Todas as informa¸c˜oes do arquivo de log devem ser separadas por uma tabula¸c˜ao ’\t’
