@@ -1,0 +1,14 @@
+2. Arvore Bin´aria de ´ Arvore Bin´arias em Java ´ : Refa¸ca a quest˜ao anterior, contudo, considerando a estrutura de ´arvore de ´arvore. Nessa estrutura, temos uma ´arvore bin´aria tradicional
+na qual cada n´o tem um ponteiro para outra ´arvore bin´aria. Graficamente, a primeira ´arvore
+est´a no plano xy e a ´arvore de seus n´os pode ser imaginada no espa¸co tridimensional. Temos
+dois tipos de n´os. O primeiro tem um n´umero inteiro como chave, os ponteiros esq e dir (ambos
+para n´os do primeiro tipo) e um ponteiro para n´os do segundo tipo. O outro n´o tem uma String
+como chave e os ponteiros esq e dir (ambos para n´os do segundo tipo). A chave de pesquisa
+da primeira ´arvore ´e o atributo altura mod 15 e, da outra, ´e o atributo Nome do Jogador.
+Conforme a figura abaixo.
+Destaca-se que nossa pesquisa faz um “mostrar” na primeira ´arvore e um “mostrar” na segunda.
+Faremos um “mostrar” na primeira ´arvore porque ela ´e organizada pelo altura mod 15, permitindo que o valor desejado esteja na segunda ´arvore de qualquer um de seus n´os. Faremos o
+“mostrar” na segunda porque ela ´e organizada pelo atributo Nome do Jogador. Antes de inserir qualquer elemento, crie a primeira ´arvore, inserindo todos seus n´os e respeitando a ordem 7,
+3, 11, 1, 5, 9, 13, 0, 2, 4, 6, 8, 10, 12 e 14. O arquivo de log ser´a matr´ıcula arvoreArvore.txt.
+3. Arvore AVL em C ´ : Refa¸ca a primeira quest˜ao deste trabalho com Arvore AVL em C. O nome ´
+do arquivo de log ser´a matr´ıcul
