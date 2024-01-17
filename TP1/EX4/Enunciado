@@ -1,0 +1,7 @@
+4.Altera¸c˜ao Aleat´oria - Crie um m´etodo iterativo que recebe uma string, sorteia duas letras
+min´usculas aleat´orias (c´odigo ASCII ≥ ’a’ e ≤ ’z’), substitui todas as ocorrˆencias da primeira
+letra na string pela segunda e retorna a string com as altera¸c˜oes efetuadas. Na sa´ıda padr˜ao,
+para cada linha de entrada, execute o m´etodo desenvolvido nesta quest˜ao e mostre a string
+retornada como uma linha de sa´ıda. Abaixo, observamos um exemplo de entrada supondo que
+para a primeira linha as letras sorteados foram o ’a’ e o ’q’. Para a segunda linha, foram o ’e’ e
+o ’k’.
