@@ -1,0 +1,6 @@
+5. Tabela Hash Direta com Reserva: Refa¸ca a primeira quest˜ao deste trabalho com Tabela
+Hash Direta com Reserva. A fun¸c˜ao de transforma¸c˜ao ser´a altura mod tamTab onde tamTab
+(tamanho da tabela) ´e 21. A ´area de reserva tem tamanho 9, fazendo com que o tamanho total
+da tabela seja igual a 30. A sa´ıda padr˜ao ser´a a posi¸c˜ao de cada elemento procurado na tabela
+(na hash ou na ´area de reserva). Se o elemento procurado n˜ao estiver na tabela, escreva a palavra
+NAO. Al´em disso, o nome do arquivo de log ser´a matr´ıcula ˜ hashReserva.txt.
