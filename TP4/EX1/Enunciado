@@ -1,0 +1,10 @@
+1. Arvore Bin´aria em Java ´ : Crie uma Arvore Bin´aria, fazendo inser¸c˜oes de registros conforme a ´
+entrada padr˜ao. A chave de pesquisa ´e o atributo Nome do Jogador. N˜ao insira um elemento
+se sua chave estiver na ´arvore. Em seguida, pesquise se alguns registros est˜ao cadastrados na
+Arvore, mostrando seus respectivos caminhos de pesquisa. A entrada padr˜ao ´e igual a da quest˜ao ´
+de “Pesquisa Sequencial”. A sa´ıda padr˜ao ´e composta por v´arias linhas, uma para cada pesquisa.
+Cada linha ´e composta pelo caminho ou sequˆencia de ponteiros (raiz, esq ou dir) utilizados
+na pesquisa e, no final, pelas palavras SIM ou NAO. Al´em disso, crie um arquivo de log na pasta
+corrente com o nome matr´ıcula arvoreBinaria.txt com uma ´unica linha contendo sua matr´ıcula,
+tempo de execu¸c˜ao do seu algoritmo e n´umero de compara¸c˜oes. Todas as informa¸c˜oes do arquivo
+de log devem ser separadas por uma tabula¸c˜ao ’\t’.
